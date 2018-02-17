@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">100dp</dimen>
+
+    <!-- General value to use for paddings and margins -->
+    <dimen name="spacer">16dp</dimen>
+
+    <!-- Dimension value for list item "place" icon -->
+    <dimen name="thumbnail_dimensions">60dp</dimen>
+
+    <!-- Header text size -->
+    <dimen name="header_text_size">14sp</dimen>
+
+    <!-- Author text size -->
+    <dimen name="author_text_size">12sp</dimen>
+
+    <!-- Text size for date and section name information-->
+    <dimen name="other_info_text_size">12sp</dimen>
+
+</resources>

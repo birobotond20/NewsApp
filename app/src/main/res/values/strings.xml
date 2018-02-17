@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">News App</string>
+
+    <string name="thumbnail_content_description">Thumbnail of the news</string>
+
+    <!-- Text to show when there is no internet connection -->
+    <string name="no_internet_connection">No internet connection</string>
+
+    <!-- Text to show when the ListView has no data to show -->
+    <string name="no_news_found">No news found</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">News Settings</string>
+
+    <!-- Strings For search word Preference [CHAR LIMIT=30] -->
+    <string name="settings_search_word_label">Search Word</string>
+    <string name="settings_search_word_key" translatable="false">order_by</string>
+    <string name="settings_search_word_default" translatable="false">@string/settings_search_word_gareth_bale_value</string>
+
+    <!-- Label for Gareth Bale option [CHAR LIMIT=20] -->
+    <string name="settings_search_word_gareth_bale_label">Gareth Bale</string>
+    <string name="settings_search_word_gareth_bale_value" translatable="false">Gareth Bale</string>
+
+    <!-- Label for Cristiano Ronaldo option [CHAR LIMIT=20] -->
+    <string name="settings_search_word_cristiano_ronaldo_label">Cristiano Ronaldo</string>
+    <string name="settings_search_word_cristiano_ronaldo_value" translatable="false">Cristiano Ronaldo</string>
+
+    <!-- Label for Zlatan Ibrahimovic option [CHAR LIMIT=20] -->
+    <string name="settings_search_word_zlatan_ibrahimovic_label">Zlatan Ibrahimovic</string>
+    <string name="settings_search_word_zlatan_ibrahimovic_value" translatable="false">Zlatan Ibrahimovic</string>
+
+    <!-- Label for Artificial Intelligence option [CHAR LIMIT=20] -->
+    <string name="settings_search_word_artificial_intelligence_label">Artificial Intelligence</string>
+    <string name="settings_search_word_artificial_intelligence_value" translatable="false">Artificial Intelligence</string>
+
+</resources>

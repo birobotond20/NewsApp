@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:padding="@dimen/spacer">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="@dimen/thumbnail_dimensions"
+        android:layout_height="@dimen/thumbnail_dimensions"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/guardiola"
+        android:contentDescription="@string/thumbnail_content_description" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="@dimen/spacer"
+        android:layout_marginStart="@dimen/spacer"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="3"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/header_text_size"
+            tools:text="Long placeholder header that should wrap to more than 3 lines of text if it is possible" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/author_text_size"
+            tools:text="Author: Jamie Jackson at the Philip II Arena" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="@dimen/spacer"
+        android:layout_marginStart="@dimen/spacer"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/datePublished"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/other_info_text_size"
+            tools:text="2017-12-31" />
+
+        <TextView
+            android:id="@+id/sectionName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/secondary_text"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxWidth="100dp"
+            android:textSize="@dimen/other_info_text_size"
+            tools:text="Long placeholder text to see how crummed the view will become" />
+    </LinearLayout>
+</LinearLayout>
