@@ -148,7 +148,7 @@ public class NewsActivity extends AppCompatActivity implements LoaderCallbacks<L
         uriBuilder.appendQueryParameter("format", "json");
         uriBuilder.appendQueryParameter("page-size", "50");
         uriBuilder.appendQueryParameter("show-fields", "headline,thumbnail,byline,firstPublicationDate");
-        uriBuilder.appendQueryParameter("api-key", "f06d8246-2b1d-41d6-bac9-ac9d9b8dd792");
+        uriBuilder.appendQueryParameter("api-key", "");
         Log.e(LOG_TAG, uriBuilder.toString());
         return new NewsLoader(this, uriBuilder.toString());
     }
